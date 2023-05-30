@@ -11,6 +11,7 @@ import { Provider } from 'react-redux';
 const store = create();
 ReactDOM.render(
   <Provider store={store}>
+    {/* test */}
     <Router />
   </Provider>,
   document.getElementById('root')
